@@ -11,7 +11,7 @@ class App extends React.Component {
         };
     }
 
-    update(event) {
+    update(event) {  // not in the spec
         this.setState({txt: event.target.value});
     }
 
